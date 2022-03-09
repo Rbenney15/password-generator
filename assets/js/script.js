@@ -29,7 +29,9 @@ for (let i = 0; i < lengthNumber; i++) {
     password = password + (getRandomSymbol());
   }
 }
-
+var slicepassword = password.slice(0, lengthNumber);
+console.log(slicepassword);
+ return slicepassword 
 };
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
