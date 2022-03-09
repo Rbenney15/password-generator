@@ -1,7 +1,7 @@
 # password-generator
 Random Password Generator
  
- image goes here
+
  
  ## Description
  This is a random password generator to create more complex and secure passwords. 
