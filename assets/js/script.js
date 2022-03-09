@@ -14,7 +14,22 @@ var numbers = confirm("Would you like to include numbers?");
 var symbols = confirm("Would you like to include special characters?");
   if (symbols === true){
  }
- 
+ var password = "";
+for (let i = 0; i < lengthNumber; i++) {
+  if (lowerCase === true) {
+    password = password + (getRandomLower());
+  }
+  if (upperCase === true) {
+    password = password + (getRandomUpper());
+  }
+  if (numbers === true) {
+    password = password + (getRandomNumber());
+  }
+  if (symbols === true) {
+    password = password + (getRandomSymbol());
+  }
+}
+
 };
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
