@@ -13,4 +13,4 @@ Random Password Generator
 
 ## Project Links
 * https://github.com/Rbenney15/password-generator.git
-* deployed URL
+* https://rbenney15.github.io/password-generator/
