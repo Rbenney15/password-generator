@@ -1,6 +1,9 @@
 // Assignment code here
-
-
+function generatePassword() {
+  // Follow the prompts to select what you would like to include in your password
+  alert("Follow the prompts to select what you would like to include in your password.");
+  
+}
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
