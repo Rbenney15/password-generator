@@ -2,8 +2,20 @@
 function generatePassword() {
   // Follow the prompts to select what you would like to include in your password
   alert("Follow the prompts to select what you would like to include in your password.");
-  
-}
+var lowerCase = confirm("Would you like to include lower case letters?");
+  if (lowerCase === true){
+  }
+var upperCase = confirm("Would you like to include upper case letters?");
+  if (upperCase === true){
+  }
+var numbers = confirm("Would you like to include numbers?");
+  if (numbers === true){
+ }
+var symbols = confirm("Would you like to include special characters?");
+  if (symbols === true){
+ }
+ 
+};
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
