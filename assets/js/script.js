@@ -2,21 +2,17 @@
 function generatePassword() {
   // Follow the prompts to select what you would like to include in your password
   alert("Follow the prompts to select what you would like to include in your password.");
-  
+
   // prompt length of password (a minimum of 8 - 128 characters)
   var length = prompt("Select a character length for your password, minimum of 8 characters, max of 128 characters.");
-  console.log(length);
   var lengthNumber = parseInt(length);
-  console.log(lengthNumber);
   if (lengthNumber < 8 || lengthNumber > 128) {
     alert("Try Again: minimum of 8 characters, max of 128 characters");
     return "";
   }
-  
   var lowerCase = confirm("Would you like to include lower case letters?");
     if (lowerCase === true){
      }
-  
   var upperCase = confirm("Would you like to include upper case letters?");
   if (upperCase === true){
      }
