@@ -12,5 +12,5 @@ Random Password Generator
  * Displaying my knowledge of prompts/alerts and functions
 
 ## Project Links
-* github link
+* https://github.com/Rbenney15/password-generator.git
 * deployed URL
